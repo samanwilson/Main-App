@@ -1,0 +1,192 @@
+.a-default :hover{
+    color: black;
+    text-decoration: none;
+}
+.a-default{
+    color: black!important;
+    text-decoration: none!important;
+}
+.Brand{
+    text-decoration: none;
+    color: black;
+}
+
+.Header {
+
+    background: #ff4457 url("bg-pattern-intro.svg") center;
+    background-size: cover;
+    border-bottom-left-radius: 50px;
+    height: 60vh;
+}
+.AdminHeader{
+    background: #ff4457 url("bg-pattern-intro.svg") center;
+    background-size: cover;
+    border-bottom-right-radius: 50px;
+    height: 30vh;
+}
+.CustomHeader{
+    background: #ff4457 url("bg-pattern-intro.svg") center;
+    background-size: cover;
+    border-bottom-left-radius: 50px;
+    height: 40vh;
+}
+@media screen and (max-width: 992px) {
+    .CustomHeader{
+        height: 60vh;
+    }
+    .Card{
+        height: 450px!important;
+    }
+    .Card:hover{
+        height: 450px!important;
+    }
+    .AdminHeader{
+        height: 50vh;
+    }
+
+}
+.DropDown{
+    position: absolute;
+    list-style-type: none;
+
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.Dropdown-item:hover{
+    color: #3b3e5f;
+    transition: .5s ease;
+}
+.DropDown-Link:hover{
+    color: #3b3e5f!important;
+    transition: .5s ease!important;
+}
+.Custom-Btn{
+
+    border-radius: 40px!important;
+    padding-right: 40px!important;
+    padding-left: 40px!important;
+    color: white!important;
+}
+.Custom-Btn:hover{
+    background-color: #fe846d;
+    transition: 1s ease;
+}
+.jumbo-Custom-Btn{
+    border-radius: 40px!important;
+    padding-right: 40px!important;
+    padding-left: 40px!important;
+    color: white!important;
+    line-height: 20px!important;
+}
+.jumbo-Custom-Btn:hover{
+    background-color: #ff4457;
+    transition: 1s ease;
+}
+
+.Future-Bg{
+    background: url("/img/illustration-editor-desktop.svg") center no-repeat;
+    background-size: cover;
+
+}
+
+#Art{
+    background-color: #3b3e5f;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+.Footer-Item:hover{
+    color: #3b3e5f!important;
+    transition: .5s ease!important;
+}
+
+.red{
+    color: #ff4457;
+}
+.orange{
+    color: #fe846d;
+}
+
+.blue{
+    color: #3b3e5f!important;
+}
+.Card{
+
+    border-bottom-left-radius: 50px!important;
+    border-top-right-radius:  50px!important;
+    background: #e0e0e0 center;
+    box-shadow:  5px 5px 22px #5a5a5a,
+    -5px -5px 22px #ffffff!important;
+    height: 390px;
+    overflow: hidden;
+}
+.Card:hover{
+    height: 450px;
+    transition: 1s ease;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.Collapse-Item{
+    border: none!important;
+
+}
+
+.Collapse-btn{
+    color: #3b3e5f!important;
+    text-decoration: none!important;
+}
+
+.Collapse-btn:hover{
+    border-bottom: solid 1px  #ff4457;
+    transition: .5s ease;
+}
+
+.form-container{
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow:  35px 35px 70px #666666,
+    -35px -35px 70px #ffffff;
+}
+
+.Custom-Login-Btn{
+
+    border-radius: 40px!important;
+    padding-right: 40px!important;
+    padding-left: 40px!important;
+    background-color: #fe846d!important;
+    color: white!important;
+
+}
+.Custom-Login-Btn:hover{
+    color: white!important;
+    transition: 1s ease;
+}
+
+.AsideBar{
+    background-color: #3b3e5f;
+}
+
+.List-Custom-Css{
+    border: none!important;
+    background: none!important;
+}

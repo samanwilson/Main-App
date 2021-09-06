@@ -1,0 +1,7 @@
+setup vuex
+Add product system (after login)
+Blog searching System Checked
+Blog Fetching News System Checked
+login logout System checked
+Add News To Favorites (after login)
+Send a Message System (after login)
